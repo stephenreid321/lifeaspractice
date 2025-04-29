@@ -127,7 +127,7 @@ h2 {
 
 /* Navbar styling */
 .navbar {
-  background-color: $old-paper;
+  background: linear-gradient(to bottom, $gradient-start 0%, $gradient-end 100%);
 }
 
 /* Active states for navbar */

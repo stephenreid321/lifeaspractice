@@ -1,6 +1,16 @@
 <h2 style="text-transform: none">Stephen Reid</h2>
 
-![](/assets/images/us.jpg){: style="max-width: 33%; float: right; margin-left: 15px; margin-bottom: 15px"}
+<style>
+#us {
+  max-width: 50%; float: right; margin-left: 15px; margin-bottom: 15px
+}
+@media(min-width: 768px) { 
+  #us {
+    max-width: 33%;
+  }
+}
+</style>
+<img id="us" src="/assets/images/us.jpg">
 
 
 Stephen Reid is a technologist, facilitator and [coach](https://stephenreid.net/coaching) who has trained in the fields of AI/ML, complexity science, physics, transformative coaching and insight meditation. Current projects include writing a book on [Technological Metamodernism](https://stephenreid.substack.com/p/technological-metamodernism-course), hosting courses and residencies as a founder of [Futurecraft](https://futurecraft.life/), and leading the development of [Dandelion](https://dandelion.events/) as a founder of not-for-profit worker co-op [Symbiota](https://symbiota.coop/).
