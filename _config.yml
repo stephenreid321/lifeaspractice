@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Life as Practice
+subtitle: Yearlong Group Mentorship
 email: stephen@stephenreid.net
 description: >-
   What if everyday life could become your practice ground for profound growth and transformation?
@@ -32,15 +33,67 @@ url: https://lifeaspractice.com  # the base hostname and protocol for your site,
 
 # Define sections for the single page
 sections:
-  - id: about
-    title: About
-  - id: services
-    title: Services
-  - id: portfolio
-    title: Portfolio
-  - id: contact
-    title: Contact
+  - id: introduction
+    title: Introduction
+    divider: 🪷
+  - id: the-fivefold-focus
+    title: The Fivefold Focus
+    divider: 🧘‍♀️
+  - id: the-fivefold-container
+    title: The Fivefold Container
+    divider: 🌙
+  - id: who-is-this-for
+    title: Who is this for?
+    divider: 🔍
+  - id: time-commitment
+    title: Time commitment
+    divider: ⏱️
+  - id: schedule
+    title: Schedule
+    divider: 📅
+  - id: investment
+    title: Investment
+    divider: 🌸
+  - id: your-guides
+    title: Your guides
+    divider: 🧭
+  - id: how-to-apply
+    title: How to apply
+    divider: 📝
+  - id: faq
+    title: Frequently asked questions
+    divider: ✨
+  
 
+faq_items:
+  - question: Do I need to attend every meeting?
+    answer: While consistent participation creates the strongest container, we understand that life happens. Meetings will be recorded for those who cannot attend live, and we ask that you prioritise attendance at the new moon pod meetings to maintain connection with your small group.
+  
+  - question: I live outside Europe. Can I still participate meaningfully?
+    answer: Yes! We expect to have participants from around the world. The full moon meetings (7-9pm Stockholm time) may fall at challenging times for some time zones, but recordings will be available. New moon pod meetings can be scheduled at times that work for all pod members.
+  
+  - question: What platforms will we be using?
+    answer: We'll be using Zoom for our full moon meetings and one-on-one sessions. New moon pods can choose their preferred platform. We'll use a private Slack workspace for ongoing communication and resource sharing. For document sharing and collaborative work, we'll use Google Workspace.
+  
+  - question: What if I'm completely new to meditation?
+    answer: The programme is structured to accommodate various levels of experience. If you're new to meditation, we'll provide additional resources to help you establish a foundation, and the quarterly progression allows you to build skills gradually.
+  
+  - question: What if I want to focus more on one area than others?
+    answer: The fivefold framework provides balance, but we encourage you to find your own equilibrium. Some participants naturally gravitate toward certain focuses while maintaining a baseline in others. Your mentoring sessions can help you determine the right balance for your needs.
+  
+  - question: What's your cancellation and refund policy?
+    answer: "We understand that circumstances change, and we've designed our policy to be fair to both participants and facilitators:<br><br>
+    <ul>
+    <li><strong>Full refund period:</strong> Up to 30 days before the programme starts (August 7, 2025), you may cancel your registration for a full refund minus a €100 administrative fee.</li>
+    <li><strong>Partial refund period:</strong> Between 30 days before the start date and the end of the first month (September 30, 2025), you may withdraw from the programme and receive a 50% refund.</li>
+    <li><strong>No refund period:</strong> After September 30, 2025, no refunds will be provided for cancellations.</li>
+    <li><strong>Extenuating circumstances:</strong> In cases of serious illness, family emergency, or other significant life events, please contact us directly to discuss your situation. We're committed to finding fair solutions when unexpected circumstances arise.</li>
+    <li><strong>Programme modifications:</strong> In the unlikely event that we need to make significant changes to the programme structure, we will notify all participants and offer the option to withdraw with a prorated refund.</li>
+    </ul>"
+  
+  - question: I have a different question, how can I get in touch with you?
+    answer: You are welcome to email us at <a href="mailto:hello@lifeaspractice.com">hello@lifeaspractice.com</a>, or book a 15-minute discovery call via <a href="https://lifeaspractice.com/call">lifeaspractice.com/call</a>.
+      
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #

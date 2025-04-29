@@ -1,0 +1,149 @@
+// Color variables
+$primary-color: #8A2BE2;
+$primary-dark: #2D243B;
+$old-paper: #F5F3EF;
+$gradient-start: #E6D7FF;
+$gradient-end: $old-paper;
+$primary-transparent: rgba(138, 43, 226, 0.1);
+
+// Font variables
+$font-family-base: 'Space Grotesk', sans-serif;
+$headings-font-family: 'Japan Daisuki', serif;
+$base-font-size: 20px;
+$table-font-size: 0.85rem;
+$divider-icon-size: 1.5rem;
+
+// Spacing variables
+$sidebar-width: 270px;
+$sidebar-padding: 20px;
+$nav-item-padding: 10px;
+$line-height-base: 1.5;
+
+// Border variables
+$border-size: 3px;
+$nav-border-size: 2px;
+
+// Set link color using Bootstrap variable
+$link-color: $primary-color;
+
+@import 'bootstrap/bootstrap.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  font-size: $base-font-size;
+  background-color: $old-paper;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: lowercase;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: $primary-color;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 3px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  &::after {
+    content: "\00a0"; // Add non-breaking spaces after h2 content
+    display: inline-block;
+    text-decoration: inherit; // Inherit the underline
+  }
+}
+
+.navbar-brand {
+  text-transform: lowercase;
+  font-family: $headings-font-family;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  width: $sidebar-width;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  padding: $sidebar-padding;
+  background: linear-gradient(to right, $gradient-start 0%, $gradient-end 100%);
+}
+
+#sidebar .sidebar-header {
+  padding-bottom: $sidebar-padding;
+
+  h3 a {
+    color: $primary-dark;
+  }
+}
+
+#sidebar ul li a {
+  padding: $nav-item-padding;
+  display: block;
+  color: $primary-dark;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#sidebar ul li a:hover,
+#sidebar ul li a.active {
+  background: $primary-transparent;
+  color: $primary-dark;
+  border-left: $border-size solid $primary-color;
+}
+
+#content {
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* Desktop layout */
+@media (min-width: 992px) {
+  #content {
+    width: calc(100% - #{$sidebar-width});
+    margin-left: $sidebar-width;
+  }
+}
+
+/* Active states for navbar */
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: $primary-dark !important;
+  border-bottom: $nav-border-size solid $primary-color;
+}
+
+/* Make table font smaller */
+.table {
+  font-size: $table-font-size;
+}
+
+.divider {
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* Card styling */
+.card-header {
+  background-color: $old-paper;
+}

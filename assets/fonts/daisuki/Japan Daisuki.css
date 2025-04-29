@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Japan Daisuki';
+    src: url('fonts/JapanDaisuki-8OeaZ.eot');
+    src: url('fonts/JapanDaisuki-8OeaZ.eot?#iefix') format('embedded-opentype'),
+         url('fonts/JapanDaisuki-8OeaZ.woff2') format('woff2'),
+         url('fonts/JapanDaisuki-8OeaZ.woff') format('woff'),
+         url('fonts/JapanDaisuki-8OeaZ.ttf')  format('truetype'),
+         url('fonts/JapanDaisuki-8OeaZ.svg#Japan Daisuki') format('svg');
+}
