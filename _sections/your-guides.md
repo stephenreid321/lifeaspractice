@@ -4,7 +4,7 @@
 #us {
   max-width: 50%; float: right; margin-left: 15px; margin-bottom: 15px
 }
-@media(min-width: 768px) { 
+@media(min-width: 992px) { 
   #us {
     max-width: 33%;
   }

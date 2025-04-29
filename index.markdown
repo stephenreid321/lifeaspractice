@@ -4,7 +4,7 @@ layout: application
 
 <header class="px-lg-5 my-5">
   <div class="jumbotron container text-center bg-transparent">
-    <h1 class="display-4 pb-0">
+    <h1>
       Where Daily Life
       <br />
       Meets Deep Practice
