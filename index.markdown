@@ -2,7 +2,7 @@
 layout: application
 ---
 
-<header class="px-lg-5 my-5" style="margin-top: 20px">
+<header class="px-lg-5 my-5">
   <div class="jumbotron container text-center bg-transparent">
     <h1 class="display-4 pb-0">
       Where Daily Life
