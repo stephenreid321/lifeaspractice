@@ -1,6 +1,3 @@
-Your guides
-===========
-
 <h2 style="text-transform: none">Stephen Reid</h2>
 
 ![](/assets/images/us.jpg){: style="max-width: 33%; float: right; margin-left: 15px; margin-bottom: 15px"}

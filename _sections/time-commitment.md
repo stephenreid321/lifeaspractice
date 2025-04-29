@@ -1,6 +1,3 @@
-Time commitment
-===============
-
 To gain the full benefits of Life as Practice, participants should expect to dedicate:
 
 -   **Structured group time:** 4-6 hours per month

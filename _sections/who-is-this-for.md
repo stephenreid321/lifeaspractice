@@ -1,6 +1,3 @@
-Who is this for?
-================
-
 Life as Practice is designed for individuals who:
 
 -   Feel called to deepen their personal practice and integrate it more fully into daily life

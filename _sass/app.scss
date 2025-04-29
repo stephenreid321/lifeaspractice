@@ -11,7 +11,7 @@ $font-family-base: 'Space Grotesk', sans-serif;
 $headings-font-family: 'Japan Daisuki', serif;
 $base-font-size: 20px;
 $table-font-size: 0.85rem;
-$lead-font-size: 1.75rem;
+$lead-font-size: 1.65rem;
 
 // Spacing variables
 $sidebar-width: 270px;
@@ -125,6 +125,11 @@ h2 {
   }
 }
 
+/* Navbar styling */
+.navbar {
+  background-color: $old-paper;
+}
+
 /* Active states for navbar */
 .navbar-nav .nav-link.active {
   font-weight: bold;
@@ -137,13 +142,12 @@ h2 {
   font-size: $table-font-size;
 }
 
-.divider {
-  margin-top: 2.5rem;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
 /* Card styling */
 .card-header {
-  background-color: $old-paper;
+  background-color: darken($old-paper, 5%);
+}
+
+.card,
+.card-header {
+  border-color: darken($old-paper, 15%);
 }

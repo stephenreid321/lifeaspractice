@@ -1,6 +1,3 @@
-How to Apply
-============
-
 To begin your journey with *Life as Practice*, visit [lifeaspractice.com/apply](https://lifeaspractice.com/apply) to share your background, current practices, and what draws you to this yearlong journey. Applications for the 2025-2026 cohort will remain open until August 7, 2025, or until all spaces are filled.
 
 We review applications on a rolling basis and aim to respond within two weeks of your submission. As part of our selection process, we may invite you to a brief video conversation to explore alignment and answer any questions you might have about the programme. Upon acceptance, you'll receive an invitation to secure your place with either a full payment or your first quarterly installment.

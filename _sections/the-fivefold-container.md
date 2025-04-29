@@ -1,6 +1,3 @@
-The Fivefold Container
-======================
-
 Full moon meetings
 ------------------
 

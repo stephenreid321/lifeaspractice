@@ -1,5 +1,3 @@
-<h1>Frequently Asked Questions</h1>
-
 <div class="accordion" id="faqAccordion">
   {% for item in site.faq_items %}
     <div class="card">

@@ -1,4 +1,1 @@
-Schedule
-========
-
 {% include schedule.html %}

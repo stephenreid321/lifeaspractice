@@ -1,6 +1,3 @@
-Investment
-==========
-
 We are offering three pricing tiers on an honesty basis. Quarterly payment plans are available on request.
 
 - **Early birds and those on low incomes (well below the median wage where you live/low income countries):** €1999
