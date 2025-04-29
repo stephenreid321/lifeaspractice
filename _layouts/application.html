@@ -66,6 +66,18 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      const navbar = document.querySelector('.navbar');
+
+      $(navbarCollapse).on('shown.bs.collapse', function () {
+        navbar.classList.add('has-collapse-open');
+      });
+
+      $(navbarCollapse).on('hide.bs.collapse', function () {
+        navbar.classList.remove('has-collapse-open');
+      });
+
       // Smooth scrolling for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
