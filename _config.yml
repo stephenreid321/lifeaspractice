@@ -20,28 +20,27 @@
 
 title: Life as Practice
 email: stephen@stephenreid.net
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+description: >-
+  What if everyday life could become your practice ground for profound growth and transformation?
+  How would it feel to intentionally weave meditation, movement, learning, creativity, and self-reflection into the rhythm of your days?
+  How might your experience shift if supported by dedicated mentors and a like-minded community for a full year?
+lang: en-GB # Site-wide language setting for templates
+locale: en_GB # Locale setting specifically for jekyll-seo-tag (uses underscore)
 
 domain: lifeaspractice.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://lifeaspractice.com  # the base hostname and protocol for your site, e.g. http://example.com
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# Define sections for the single page
+sections:
+  - id: about
+    title: About
+  - id: services
+    title: Services
+  - id: portfolio
+    title: Portfolio
+  - id: contact
+    title: Contact
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
