@@ -1,7 +1,7 @@
 Full moon meetings
 ------------------
 
-We'll meet as a whole group each month on the day of the full moon, 7pm-9pm Stockholm time. The first hour will be centered on the Five Focuses, with the second hour reserved for special guests and Q&A. You'll also have the option of drawing a tarot card to reflect on across the month.
+We'll meet as a whole group each month on the day of the full moon, 7pm-9pm Stockholm time. The first hour will be centered on the *Five Focuses*, with the second hour reserved for special guests and Q&A. You'll also have the option of drawing a tarot card to reflect on across the month.
 
 New moon pods
 -------------
@@ -11,7 +11,7 @@ You'll meet with your pod each month on the day of the new moon. Pods will be se
 Wheel of the Year rituals
 -------------------------
 
-You'll be invited to mark each quarter/cross-quarter observance of the Wheel of the Year with a nature-based ritual. In addition, the week after each observance will be an *adhiṭṭhāna* week (a week of strong determination/strong will), where you're encouraged to make extra effort with each of the Five Focuses.
+You'll be invited to mark each quarter/cross-quarter observance of the Wheel of the Year with a nature-based ritual. In addition, the week after each observance will be an *adhiṭṭhāna* week (a week of strong determination/strong will), where you're encouraged to make extra effort with each of the *Five Focuses*.
 
 One-on-one mentoring sessions
 -----------------------------
