@@ -33,14 +33,14 @@ body {
   font-size: 9.5vw;
 }
 
+.jumbotron p.lead {
+  font-size: 4.5vw;
+}
+
 @media (min-width: 992px) {
   .jumbotron h1 {
     font-size: 4.5rem;
   }
-}
-
-.jumbotron p.lead {
-  font-size: 4.5vw;
 }
 
 @media (min-width: 992px) {
