@@ -2,7 +2,7 @@
 
 Hello, I'm [Stephen](https://stephenreid.net/)! I'm a technologist, facilitator and [coach](https://stephenreid.net/coaching) with training across fields including AI/ML, complexity science, physics, transformative coaching and insight meditation. Currently, I'm writing a book on [Technological Metamodernism](https://stephenreid.substack.com/p/technological-metamodernism-course), hosting courses and residencies as a founder of [Futurecraft](https://futurecraft.life/), and leading the development of [Dandelion](https://dandelion.events/) as a founder of not-for-profit worker co-op [Symbiota](https://symbiota.coop/).
 
-Previously, I founded [The Psychedelic Society](https://psychedelicsociety.org.uk/), which established Europe's first legal [psilocybin retreat programme](https://www.alalaho.org/), and had the honor of serving as youngest ever board member of Greenpeace UK.
+Previously, I founded [The Psychedelic Society](https://psychedelicsociety.org.uk/), which established Europe's first legal [psilocybin retreat programme](https://www.alalaho.org/), and had the honour of serving as youngest ever board member of Greenpeace UK.
 
 My academic background includes an MPhys in Physics from the University of Oxford, where I specialised in quantum field theory, an MRes in Complexity Science from the University of Bristol, and a Professional Certificate in Machine Learning and Artificial Intelligence from UC Berkeley.
 
