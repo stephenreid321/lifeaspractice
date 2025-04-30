@@ -28,8 +28,14 @@ Our journey together
     max-width: 33%;
   }
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 <img id="us" src="/assets/images/us.jpg">
 
-We (Laura and Stephen) are partners in life as well as in this work, bringing our complementary skills and shared passion for integrative practice to this programme. As experienced facilitators, we've designed Life as Practice as a reflection of our own journey in weaving daily life with deep developmental work.
-We believe that transformation happens not just in retreat settings but in how we show up every day, and we're excited to accompany you through a full solar cycle as you develop your own integrated approach. We look forward to meeting you and learning together throughout this year of practice!
+We (Laura and Stephen) are partners in life as well as in this work, bringing our complementary skills and shared passion for integrative practice to this programme. As experienced facilitators, we've designed Life as Practice as a reflection of our own journey in weaving daily life with deep developmental work. We believe that transformation happens not just in retreat settings but in how we show up every day, and we're excited to accompany you through a full solar cycle as you develop your own integrated approach. We look forward to meeting you and learning together throughout this year of practice!
+
+<div class="clearfix"></div>
