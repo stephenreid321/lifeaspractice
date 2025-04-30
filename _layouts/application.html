@@ -35,6 +35,10 @@
             <a class="nav-link" href="#{{ section.id }}">{{ section.title }}</a>
           </li>
           {% endfor %}
+          <li class="nav-item">
+            <a class="btn btn-primary mt-1" target="_blank"
+              href="https://airtable.com/appxD3blgx0uJJ35b/pag8aRYP7rzvoZDCL/form">Apply</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -54,6 +58,11 @@
         </li>
         {% endfor %}
       </ul>
+
+      <div class="sidebar-footer text-center">
+        <a target="_blank" class="btn btn-primary btn-lg"
+          href="https://airtable.com/appxD3blgx0uJJ35b/pag8aRYP7rzvoZDCL/form">Apply</a>
+      </div>
     </nav>
 
     <div id="content">
@@ -96,10 +105,6 @@
               behavior: 'smooth'
             });
 
-            // Update active class immediately on click
-            document.querySelectorAll('#sidebar a').forEach(link => {
-              link.classList.remove('active');
-            });
             document.querySelectorAll(`#sidebar a[href="${targetId}"]`).forEach(link => {
               link.classList.add('active');
             });
@@ -120,14 +125,22 @@
 
         let current = '';
 
-        sections.forEach(section => {
-          const sectionTop = section.offsetTop;
-          const sectionHeight = section.clientHeight;
-          // Add more offset to ensure the section is properly detected
-          if (pageYOffset >= (sectionTop - 150)) {
-            current = section.getAttribute('id');
-          }
-        });
+        // Check if we're at the bottom of the page
+        const isAtBottom = (window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 20;
+
+        if (isAtBottom) {
+          // If at bottom, highlight the last section
+          current = sections[sections.length - 1].getAttribute('id');
+        } else {
+          sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            // Adjust the offset to better detect when a section is in view
+            if (pageYOffset >= (sectionTop - 150)) {
+              current = section.getAttribute('id');
+            }
+          });
+        }
 
         // Update active state for sidebar links only
         sidebarLinks.forEach(link => {

@@ -2,12 +2,12 @@ To gain the full benefits of Life as Practice, participants should expect to ded
 
 -   **Structured group time:** 4-6 hours per month
     -   2 hours for monthly full moon meetings
-    -   1-2 hours for monthly new moon pod meetings
-    -   1-2 hours quarterly for Wheel of the Year rituals
+    -   1-2 hours for monthly new moon pods
+    -   1-2 hours quarterly for the Wheel of the Year rituals
     -   4 one-on-one mentoring sessions (1 hour each) spread throughout the year
 
--   **Individual practice time:** 5-10 hours per week
-    -   20-30 minutes daily for meditation (beginners may start with less)
+-   **Individual practice time:** 10-15 hours per week
+    -   30-45 minutes daily for meditation (beginners may start with less)
     -   2-3 hours weekly for movement practices
     -   2-3 hours weekly for reading and learning activities
     -   2-3 hours weekly for creative project work
