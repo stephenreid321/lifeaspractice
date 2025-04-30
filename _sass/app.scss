@@ -6,6 +6,7 @@ $gradient-start: #E6D7FF;
 $gradient-end: $old-paper;
 $primary-transparent: rgba(138, 43, 226, 0.1);
 $link-color: $primary-color;
+$star-color: #F2AD40;
 
 // Font variables
 $font-family-base: 'Space Grotesk', sans-serif;
@@ -179,4 +180,64 @@ h2 {
     background-color: darken($primary-color, 10%) !important;
     border-color: darken($primary-color, 10%) !important;
   }
+}
+
+
+
+
+
+.star-rating {
+  position: relative;
+  /* Needed for absolute positioning of the foreground */
+  display: inline-block;
+  /* Allows width and keeps it inline */
+  line-height: 1;
+  /* Prevents extra vertical space */
+  vertical-align: middle;
+  /* Aligns better with surrounding text */
+}
+
+.stars-background,
+.stars-foreground {
+  display: block;
+  /* Ensures they stack correctly */
+  white-space: nowrap;
+  /* Prevents stars from wrapping to the next line */
+}
+
+/* Style for the background (empty) stars */
+.stars-background {
+  color: transparent;
+  /* Light grey - adjust color as needed */
+}
+
+/* Add slight spacing between icons if needed */
+.stars-background i {
+  margin-right: 0;
+}
+
+.stars-background i:last-child {
+  margin-right: 0;
+}
+
+
+/* Style for the foreground (filled) stars */
+.stars-foreground {
+  position: absolute;
+  /* Position over the background */
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /* This is what clips the stars based on the width */
+  color: $star-color;
+  /* The width (e.g., 94%) is set via inline style in the HTML */
+}
+
+/* Match background spacing */
+.stars-foreground i {
+  margin-right: 0;
+}
+
+.stars-foreground i:last-child {
+  margin-right: 0;
 }
