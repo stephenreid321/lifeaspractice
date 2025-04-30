@@ -7,4 +7,4 @@ If you're interested in our early bird pricing, please submit your application b
 Preparing for the Journey
 -------------------------
 
-Once your place is confirmed, you'll receive a welcome package with initial resources, reflections, and optional readings to start your preparation (though no prior work is required before our September start). We'll grant you early access to our private Telegram community, allowing you to begin connecting with fellow participants before the official start date. You'll also be invited to complete a pre-programme questionnaire that helps us tailor the experience to your specific needs and aspirations.
+Once your place is confirmed, you'll receive a welcome package with initial resources and optional readings to start your preparation (though no prior work is required before our September start). We'll grant you early access to our private Telegram community, allowing you to begin connecting with fellow participants before the official start date. You'll also be invited to complete a pre-programme questionnaire that helps us tailor the experience to your specific needs and aspirations.

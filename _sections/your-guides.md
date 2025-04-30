@@ -22,8 +22,8 @@ He lives in Stockholm, Sweden, where he is an active contributor to [Emerge Lake
 
 <h2 style="text-transform: none">Laura Gottlieb</h2>
 
-Laura Gottlieb is an integral facilitator and design researcher who has studied philosophy, design, facilitation, Bohmian dialogue, Authentic Relating, yoga, taekwondo and Zen Buddhism. She is a qualified facilitator with [Ten Directions](https://tendirections.com/), [Real LIFE](https://www.dianemushohamilton.com/), [The Philosophy Foundation](https://www.philosophy-foundation.org/) and [Core Quadrant](https://www.corequality.nl/?lang=en), and is currently training as an [Alethia Coach](https://integralunfoldment.com/).
+Laura Gottlieb is an integral facilitator and design researcher who has studied philosophy, design, Bohmian dialogue, Authentic Relating, yoga, taekwondo and Zen Buddhism. She is a qualified facilitator with [Ten Directions](https://tendirections.com/), [Real LIFE](https://www.dianemushohamilton.com/), [The Philosophy Foundation](https://www.philosophy-foundation.org/) and [Core Quadrant](https://www.corequality.nl/?lang=en), and is currently training as an [Alethia Coach](https://integralunfoldment.com/).
 
 Laura has a BA in Philosophy from the University of Southampton, an MA in Information Experience Design from the Royal College of Art, London, and a PhD on Relational Sensitivity in Participatory Design from Mälardalen University.
 
-In her free time, Laura enjoys...
+In her free time, Laura enjoys kickboxing and creating tea ceremonies for friends.

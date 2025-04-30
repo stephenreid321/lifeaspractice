@@ -16,7 +16,6 @@ layout: application
       <br />
       Sep 2025 – Aug 2026
     </p>
-    <a class="btn btn-primary btn-lg" id="header-apply-button" target="_blank" href="https://airtable.com/appxD3blgx0uJJ35b/pag8aRYP7rzvoZDCL/form">Apply</a>
   </div>
 </header>
 
