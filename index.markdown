@@ -2,8 +2,8 @@
 layout: application
 ---
 
-<header class="px-lg-5 my-5">
-  <div class="jumbotron container text-center bg-transparent">
+<header class="px-lg-5 mt-5">
+  <div class="jumbotron container text-center bg-transparent mb-0">
     <h1>
       Where Daily Life
       <br />
@@ -40,7 +40,7 @@ layout: application
 {% for section in site.sections %}
   <section id="{{ section.id }}" class="section">
     <div class="container">
-      <h1 class="mt-5">{{ section.divider }}<br />{{ section.title }}</h1>
+      <h1 class="pt-5">{{ section.divider }}<br />{{ section.title }}</h1>
       {% capture section_content %}{% include_relative _sections/{{ section.id }}.md %}{% endcapture %}
       {{ section_content | markdownify }}
     </div>
