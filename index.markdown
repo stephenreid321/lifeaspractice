@@ -3,7 +3,7 @@ layout: application
 ---
 
 <header class="px-lg-5">
-  <div class="jumbotron container text-center bg-transparent mb-0 pb-0">
+  <div class="jumbotron container text-center bg-transparent mt-5 mt-lg-0 mb-0 pb-0">
     <h1 class="mb-0">
       Where Daily Life
       <br />
