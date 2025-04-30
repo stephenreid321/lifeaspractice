@@ -2,14 +2,14 @@
 layout: application
 ---
 
-<header class="px-lg-5 mt-5">
-  <div class="jumbotron container text-center bg-transparent mb-0">
-    <h1>
+<header class="px-lg-5">
+  <div class="jumbotron container text-center bg-transparent mb-0 pb-0">
+    <h1 class="mb-0">
       Where Daily Life
       <br />
       Meets Deep Practice
     </h1>
-    <p class="lead mb-3">
+    <p class="lead my-4">
       A Yearlong Group Mentorship
       <br />
       with Stephen Reid and Laura Gottlieb
