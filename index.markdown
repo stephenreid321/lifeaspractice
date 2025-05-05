@@ -14,7 +14,7 @@ layout: application
       <br />
       with Stephen Reid and Laura Gottlieb
       <br />
-      Sep 2025 – Aug 2026
+      Online, Sep 2025 – Aug 2026
     </p>
     <p class="mb-3">
       First time running this programme!
