@@ -16,6 +16,11 @@ layout: application
       <br />
       Online, Sep 2025 – Aug 2026
     </p>
+    <div class="row justify-content-center">
+    <div class="col-8 col-md-6 col-lg-5">
+      <p><img class="w-100" src="/assets/images/us.jpg"></p>
+    </div>
+    </div>
     <p class="mb-3">
       First time running this programme!
       <br />
